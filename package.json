@@ -1,11 +1,19 @@
 {
     "name": "geo-travel-validator",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "This service calculates distances using the Haversine formula and determines if traveling between login events is feasible based on a maximum speed.",
     "type": "module",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/charl-kruger/geo-travel-validator.git"
+    },
+    "bugs": {
+        "url": "https://github.com/charl-kruger/geo-travel-validator/issues"
+    },
+    "homepage": "https://github.com/charl-kruger/geo-travel-validator#readme",
     "scripts": {
         "build": "rollup -c",
         "test": "jest",
